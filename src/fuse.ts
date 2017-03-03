@@ -14,4 +14,4 @@ let fuseBox = new fsbx.FuseBox({
     ]
 });
 
-fuseBox.devServer(">index.jsx");
+fuseBox.devServer(">entry.tsx");
