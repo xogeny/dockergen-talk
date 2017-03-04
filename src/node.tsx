@@ -1,5 +1,5 @@
 import React = require('react');
-import { Slide, List, ListItem, CodePane } from 'spectacle';
+import { Slide, CodePane } from 'spectacle';
 import { bigHeader, medHeader } from './common';
 
 // Creating a Docker image (self contained application) requires a `Dockerfile`.  Dockerfile 
@@ -39,7 +39,7 @@ export const withNode = [
     </Slide>,
     <Slide key={4}>
         <div style={{ textAlign: "left" }}>
-            <CodePane textSize="4vh" source={dockerfile} lang="Docker"></CodePane>
+            <CodePane textSize="4vh" source={dockerfile} lang="docker"></CodePane>
             <br />
             <a href="https://nodejs.org/en/docs/guides/nodejs-docker-webapp/">https://nodejs.org/en/docs/guides/nodejs-docker-webapp/</a>
         </div>

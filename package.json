@@ -24,6 +24,7 @@
     "spectacle": "^2.0.0"
   },
   "devDependencies": {
+    "dockergen": "^0.3.6",
     "typescript": "^2.2.1"
   }
 }
