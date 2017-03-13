@@ -26,7 +26,7 @@ export const dockergen = [
             <ListItem>Version of Node</ListItem>
             <ListItem>Pulling in dependencies</ListItem>
             <ListItem>Private modules</ListItem>
-            <ListItem><code>yarn</code> vs. <code>npm</code></ListItem>
+            <ListItem><code>yarn</code> instead of <code>npm</code></ListItem>
             <ListItem>Scripts to run during build</ListItem>
             <ListItem>Environment variables</ListItem>
             <ListItem>Ports</ListItem>
